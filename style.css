@@ -89,7 +89,7 @@
   outline: none;
 }
 
-.countries > select:hover {
+.countries>select:hover {
   transform: scale(1.1);
 }
 
@@ -442,6 +442,7 @@
 .donation img {
   border-radius: 10px;
 
+  transition: all ease 0.6s;
   width: 100%;
 }
 
@@ -452,11 +453,13 @@
 .works img {
   border-radius: 10px;
   width: 100%;
+  transition: all ease 0.6s;
 }
 
 .student img {
   border-radius: 10px;
   width: 100%;
+  transition: all ease 0.6s;
 }
 
 .student {
@@ -582,6 +585,7 @@ h5 {
   color: #262626;
   align-items: center;
 }
+
 .also img {
   align-self: center;
   text-align: center;
@@ -680,16 +684,20 @@ h5 {
   padding: 4px;
   text-align: center;
 }
+
 .say {
   text-align: center;
   margin-bottom: 25px;
 }
+
 .say p {
   color: #8dc63f;
 }
+
 .say h1 {
   color: #262626;
 }
+
 .arshad img {
   width: 100px;
   border-radius: 100%;
@@ -709,12 +717,15 @@ h5 {
   text-align: center;
   line-height: 30px;
 }
+
 .arshad p {
   color: #232323;
 }
+
 .arshad h2 {
   color: #0d6db7;
 }
+
 .update {
   margin-top: 40px;
   text-align: center;
@@ -726,6 +737,7 @@ h5 {
   display: grid;
   gap: 10px;
 }
+
 .tech-grid {
   grid-auto-flow: column;
   display: grid;
@@ -733,6 +745,7 @@ h5 {
   gap: 45px;
   padding-bottom: 15px;
 }
+
 .system-grid {
   grid-auto-flow: column;
   display: grid;
@@ -740,49 +753,60 @@ h5 {
   gap: 45px;
   padding-bottom: 15px;
 }
+
 .iba iframe {
   border-radius: 20px;
   border: none;
   padding: 10px;
 }
+
 .enroll iframe {
   border-radius: 20px;
   border: none;
   padding-left: 10px;
 }
+
 .program {
   font-weight: 700;
   padding-left: 10px;
 }
+
 .organization {
   font-weight: 200;
   padding-left: 10px;
 }
+
 .iba {
   border: solid 1px #e9e9e9;
 }
+
 .system {
   display: grid;
   margin-top: 30px;
   gap: 10px;
 }
+
 .enroll {
   border: solid 1px #e9e9e9;
 }
+
 .approach {
   font-weight: 200;
   padding-left: 10px;
 }
+
 .planet {
   font-weight: 700;
   padding-left: 10px;
 }
+
 .News {
   color: #262626;
   text-align: center;
   margin-top: 40px;
   margin-bottom: 20px;
 }
+
 .explores {
   width: 98%;
   display: grid;
@@ -790,14 +814,17 @@ h5 {
   line-height: 28px;
   margin: 0 auto;
 }
+
 .collaboration {
   background-color: #eeeeee;
 }
+
 .collaboration img {
   width: 100%;
   height: 200px;
   border-radius: 20px;
 }
+
 .arrowingbtn {
   margin-top: 10px;
   width: 50px;
@@ -808,6 +835,7 @@ h5 {
   padding: 10px;
   transition: all ease 0.6s;
 }
+
 .explores-grid {
   grid-auto-flow: column;
   display: grid;
@@ -815,13 +843,16 @@ h5 {
   gap: 45px;
   padding-bottom: 15px;
 }
+
 .collaboration p {
   margin-left: 15px;
   font-weight: 700;
 }
+
 .arrowingbtn:hover {
   scale: 1.1;
 }
+
 .wedbtn {
   color: #f1f8e8;
   background-color: #8dc63f;
@@ -834,21 +865,25 @@ h5 {
   margin-bottom: 10px;
   border: #8dc63f solid 1px;
 }
+
 .guide {
   width: 98%;
   background-color: #1e74b5;
   margin: 30px auto;
   height: 267px;
 }
+
 .guides {
   color: #ffffff;
   text-align: center;
   padding-top: 18px;
 }
+
 .address {
   text-align: center;
   margin-top: 25px;
 }
+
 .address input {
   width: 500px;
   padding: 15px;
@@ -858,10 +893,12 @@ h5 {
   background-color: #1e74b5;
   border: 1px solid #ffffff;
 }
+
 .subscribe {
   margin-top: 25px;
   text-align: center;
 }
+
 .subscribebtn {
   width: 500px;
   padding: 15px;
@@ -871,16 +908,19 @@ h5 {
   cursor: pointer;
   background-color: #ffffff;
 }
+
 .laststep {
   line-height: 30px;
   display: flex;
   background-color: #424242;
 }
+
 .logs {
   margin-left: 20px;
   flex: 1;
   margin-top: 30px;
 }
+
 .contactlist {
   flex: 1;
   color: #ffffff;
@@ -888,42 +928,53 @@ h5 {
   text-align: center;
   margin-top: 30px;
 }
+
 .medialist {
   color: #ffffff;
   text-align: center;
   flex: 1;
   margin-top: 30px;
 }
+
 .aboutlist {
   flex: 1;
   text-align: center;
   color: #ffffff;
   margin-top: 30px;
 }
+
 .logs img {
   padding: 5px;
 }
+
 li {
   list-style-type: none;
   cursor: pointer;
 }
+
 .goldpara {
   background-color: #424242;
   text-align: center;
   color: #ffffff;
   padding: 11px;
 }
+
 .IPpara {
   background-color: #424242;
   text-align: center;
   color: #ffffff;
   padding: 12px;
 }
+
 .trustpara {
   color: #ffffff;
   padding: 15px;
   background-color: #424242;
   text-align: center;
+}
+
+.address input::placeholder {
+  color: whitesmoke;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -934,7 +985,7 @@ li {
     padding: 15px;
   }
 
-  .informings > div {
+  .informings>div {
     flex: 0 0 auto;
     margin: 5px 10px;
     display: flex;
@@ -959,9 +1010,11 @@ li {
   .flags {
     display: none;
   }
+
   .saylanilogo img {
     width: 140px;
   }
+
   .navlist a {
     font-size: 15px;
   }
@@ -969,119 +1022,153 @@ li {
   .secondnav {
     flex-wrap: wrap;
   }
+
   .meals h1 {
     font-size: 33px;
   }
+
   .meals h2 {
     font-size: 25px;
   }
+
   .dailymeals img {
     width: 350px;
     padding-top: 14px;
   }
+
   .explore {
     margin-bottom: 20px;
     font-size: 21px !important;
     width: 140px !important;
   }
+
   .general {
     flex-wrap: wrap;
   }
+
   .generals {
     width: 10%;
   }
+
   .rs {
     width: 10%;
     position: static !important;
     text-align: start;
   }
+
   .generals p {
     text-align: end;
     padding-top: 6px !important;
   }
+
   .rs p {
     padding-top: 6px !important;
   }
+
   .numbering input {
     position: static !important;
     width: 78vw !important;
   }
+
   .clean {
     width: 120px !important;
   }
+
   .clean img {
     width: 50px;
     height: 80px;
   }
+
   .clean h2 {
     font-size: 24px;
   }
+
   .hard {
     display: none;
   }
+
   .serve {
     flex-wrap: wrap;
   }
+
   .otherprojects {
     margin-left: 20px;
   }
+
   .housing h5 {
     margin-left: 20px;
   }
+
   .also img {
     margin-left: 20px;
   }
+
   .projects img {
     margin-left: 100px;
   }
+
   .foodblue img {
     margin-left: 34px;
   }
+
   .adoption img {
     margin-left: 34px;
   }
+
   .educated img {
     margin-left: 34px;
   }
+
   .medicaly img {
     margin-left: 34px;
   }
+
   .foodblue p {
     font-size: 21px;
   }
+
   .adoption p {
     font-size: 21px;
   }
+
   .educated p {
     font-size: 21px;
   }
+
   .medicaly p {
     font-size: 21px;
   }
+
   .tech-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-flow: row;
     overflow-x: unset;
   }
+
   .system-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-flow: row;
     overflow-x: unset;
   }
+
   .explores-grid {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-flow: row;
     overflow-x: unset;
   }
+
   .contactlist h2 {
     font-size: 24px;
   }
+
   .aboutlist h2 {
     font-size: 24px;
   }
+
   .medialist h2 {
     font-size: 24px;
   }
+
   .contactlist {
     margin-right: 34px;
   }
@@ -1091,71 +1178,91 @@ li {
   .informings {
     flex-wrap: wrap;
   }
+
   .imaging {
     display: none;
   }
+
   .telephone {
     display: none;
   }
+
   .whatsapp {
     display: none;
   }
+
   .contact {
     display: none;
   }
+
   .number {
     display: none;
   }
+
   .countries {
     display: none;
   }
+
   .flags img {
     width: 30px;
   }
+
   .saylanilogo {
     width: 200px;
   }
+
   .sponserbtn {
     margin-top: 12px;
   }
+
   .donatebtn {
     margin-top: 12px;
   }
+
   .dailymeals {
     display: none;
   }
+
   .meals {
     margin-top: 33px;
   }
+
   .meals h1 {
     font-size: 23px;
   }
+
   .meals h2 {
     font-size: 20px;
   }
+
   .explore {
     margin-bottom: 20px;
     width: 100px !important;
     font-size: 16px;
   }
+
   .general {
     flex-wrap: wrap;
   }
+
   .bloodbtn {
     width: 200px;
     font-size: 13px;
     margin-left: 20px;
   }
+
   .medicalbtn {
     margin-left: 20px;
     width: 200px;
     font-size: 13px;
   }
+
   .foodbtn {
     margin-left: 20px;
     width: 200px;
     font-size: 13px;
   }
+
   .familybtn {
     width: 200px;
     margin-left: 20px;
@@ -1167,45 +1274,58 @@ li {
     margin-left: 20px;
     font-size: 13px;
   }
+
   .blood {
     margin-right: 200px;
   }
+
   .bakra {
     display: none;
   }
+
   .doing {
     flex-wrap: wrap;
   }
+
   .clean {
     margin-top: 12px;
     width: 240px !important;
   }
+
   .hard {
     display: none;
   }
+
   .projects {
     display: none;
   }
+
   .housing {
     margin-left: 20px !important;
     margin-right: 10px;
   }
+
   .housing h5 {
     margin-left: 50px;
   }
+
   .caring {
     flex-wrap: wrap;
     height: auto;
   }
+
   .foodblue p {
     font-size: 20px;
   }
+
   .adoption p {
     font-size: 20px;
   }
+
   .educated p {
     font-size: 20px;
   }
+
   .medicaly p {
     font-size: 20px;
   }
@@ -1213,65 +1333,82 @@ li {
   .foodblue img {
     width: 100px;
   }
+
   .adoption img {
     width: 100px;
   }
+
   .educated img {
     width: 100px;
   }
+
   .medicaly img {
     width: 100px;
   }
+
   .tech-grid {
     grid-template-columns: repeat(1, 1fr);
     grid-auto-flow: row;
     overflow-x: unset;
   }
+
   .system-grid {
     grid-template-columns: repeat(1, 1fr);
     grid-auto-flow: row;
     overflow-x: unset;
   }
+
   .explores-grid {
     grid-template-columns: repeat(1, 1fr);
     grid-auto-flow: row;
     overflow-x: unset;
   }
+
   .address input {
     width: 80%;
   }
+
   .subscribebtn {
     width: 80%;
   }
+
   .saylani-foooters {
     width: 196px;
     margin: 12px auto;
     display: block;
   }
+
   .logs {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
+
   .laststep {
     flex-direction: column;
   }
+
   .aboutlist h2 {
     font-size: 20px;
   }
+
   .medialist h2 {
     font-size: 20px;
   }
+
   .contactlist h2 {
     font-size: 20px;
   }
+
   .aboutlist {
     font-size: 15px;
   }
+
   .medialist {
     font-size: 15px;
   }
+
   .contactlist {
     font-size: 15px;
   }
